@@ -1,0 +1,11 @@
+{
+    "name": "wangyongdong/SplCSV",
+    "description": "CSV文件读取、写入、导出",
+    "keywords": ["csv", "reader", "write", "export"],
+    "license": "MIT",
+    "type": "library",
+    "require": {},
+    "autoload": {
+         "psr-4": {"SplCSV": "src/"}
+    }
+}
