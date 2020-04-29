@@ -6,7 +6,7 @@
 主要依赖：
 
 PHP SPL 中 [SplFileObject](http://php.net/manual/zh/class.splfileobject.php)  方法。
-PHP SPL 中 [SplFileObject](http://php.net/manual/zh/class.splfileobject.php)  方法。
+PHP generators [generators](https://www.php.net/manual/zh/language.generators.overview.php)  迭代器。
 
 ## 安装
 
