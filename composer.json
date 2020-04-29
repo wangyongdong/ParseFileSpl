@@ -1,11 +1,34 @@
 {
-    "name": "wangyongdong/SplCSV",
-    "description": "CSV文件读取、写入、导出",
-    "keywords": ["csv", "reader", "write", "export"],
+    "name": "wangyongdong/ParseFileSpl",
+    "description": "CSV/Text文件读取、写入、导出",
+    "keywords": ["container", "spl", "csv", "text", "reader", "write", "export"],
     "license": "MIT",
     "type": "library",
-    "require": {},
+    "authors": [
+        {
+            "name": "wangyongdong"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
     "autoload": {
-         "psr-4": {"SplCSV": "src/"}
+         "psr-4": {
+             "ParseFileSpl\\": "src"
+         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ParseFileSpl\\tests\\": "tests"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }
